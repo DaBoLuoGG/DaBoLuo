@@ -1,0 +1,730 @@
+﻿Log file open, 09/17/16 10:51:23
+LogInit:Display: Running engine for game: GRMaleHero02
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1851681616) SRandInit(-1851681588).
+LogInit: Using version manifest at CL 0 with build ID 'd772f7d5-ae34-4569-bb01-903dd52e817b'
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.088507
+LogPluginManager: Loaded Plugin Paper2D, From G:/UnrealEngine-release4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From G:/UnrealEngine-release4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From G:/UnrealEngine-release4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From G:/UnrealEngine-release4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From G:/UnrealEngine-release4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From G:/UnrealEngine-release4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From G:/UnrealEngine-release4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From G:/UnrealEngine-release4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From G:/UnrealEngine-release4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From G:/UnrealEngine-release4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From G:/UnrealEngine-release4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From G:/UnrealEngine-release4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From G:/UnrealEngine-release4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From G:/UnrealEngine-release4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From G:/UnrealEngine-release4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From G:/UnrealEngine-release4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From G:/UnrealEngine-release4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From G:/UnrealEngine-release4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From G:/UnrealEngine-release4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From G:/UnrealEngine-release4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From G:/UnrealEngine-release4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From G:/UnrealEngine-release4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin TwitchLiveStreaming, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/TwitchLiveStreaming/TwitchLiveStreaming.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From G:/UnrealEngine-release4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From G:/UnrealEngine-release4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From G:/UnrealEngine-release4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogModuleManager:Warning: No filename provided for module XMPP
+LogModuleManager:Warning: ModuleManager: Unable to load module 'XMPP' because the file 'G:/UnrealEngine-release4.13/Engine/Binaries/Win64/' was not found.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: UE4-CL-0
+LogInit: Engine Version: 4.13.0-0+UE4
+LogInit: Compatible Engine Version: 4.13.0-0+UE4
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep  8 2016 11:13:33
+LogInit: Compiled with Visual C++: 19.00.23918.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line:  
+LogInit: Base directory: G:/UnrealEngine-release4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.17-02.51.23:675][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.17-02.51.23:675][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.17-02.51.23:714][  0]LogInit: Computer: PC-20160608SDYI
+[2016.09.17-02.51.23:714][  0]LogInit: User: Administrator
+[2016.09.17-02.51.23:714][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.17-02.51.23:714][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.09.17-02.51.23:714][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2016.09.17-02.51.23:714][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.17-02.51.23:714][  0]LogMemory: Process Physical Memory: 255.35 MB used, 255.35 MB peak
+[2016.09.17-02.51.23:714][  0]LogMemory: Process Virtual Memory: 260.39 MB used, 260.39 MB peak
+[2016.09.17-02.51.23:714][  0]LogMemory: Physical Memory: 5163.20 MB used, 24575.30 MB total
+[2016.09.17-02.51.23:714][  0]LogMemory: Virtual Memory: 583.21 MB used, 8388608.00 MB total
+[2016.09.17-02.51.23:904][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (G:/UnrealEngine-release4.13/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (用于引用此节点中的资源的累积时间)
+Localization Resource: (G:/UnrealEngine-release4.13/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (502993589) Localized String: (引用该节点中资源所用的累计时间)
+[2016.09.17-02.51.23:904][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (G:/UnrealEngine-release4.13/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (若为真，在状态中寻找最高权重动画的“相关动画”节点将忽视 此节点)
+Localization Resource: (G:/UnrealEngine-release4.13/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (319969718) Localized String: (如果为真，那么将会忽略查找最高权重动画的"相关动画"节点。
+这个节点)
+[2016.09.17-02.51.23:904][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (G:/UnrealEngine-release4.13/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (此节点最后交会的混合权重)
+Localization Resource: (G:/UnrealEngine-release4.13/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1232800293) Localized String: (该节点上一次遇到的混合权重)
+[2016.09.17-02.51.24:446][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.17-02.51.24:485][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTS 450' (Feature Level 11_0)
+[2016.09.17-02.51.24:485][  0]LogD3D11RHI:       979/0/3071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.09.17-02.51.24:485][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.17-02.51.24:495][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.17-02.51.24:495][  0]LogD3D11RHI:     GPU DeviceId: 0x1245 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.17-02.51.24:495][  0]LogWindows: EnumDisplayDevices:
+[2016.09.17-02.51.24:495][  0]LogWindows:    0. 'NVIDIA GeForce GTS 450' (P:1 D:1)
+[2016.09.17-02.51.24:496][  0]LogWindows:    1. 'NVIDIA GeForce GTS 450' (P:0 D:0)
+[2016.09.17-02.51.24:496][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2016.09.17-02.51.24:497][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.09.17-02.51.24:498][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.09.17-02.51.24:498][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2016.09.17-02.51.24:498][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTS 450
+[2016.09.17-02.51.24:498][  0]LogD3D11RHI:   Driver Version: 368.22 (internal:10.18.13.6822, unified:368.22)
+[2016.09.17-02.51.24:498][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2016.09.17-02.51.24:498][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2016.09.17-02.51.24:519][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.17-02.51.24:538][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.09.17-02.51.24:538][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (F:/虚幻4百度云盘/已上传/GRMaleHero02/Intermediate/Shaders/WorkingDirectory/7628/).
+[2016.09.17-02.51.24:539][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADMINI~1/AppData/Local/Temp/UnrealShaderWorkingDir/101140814BA2BCFE889F889DC082C8FC/'.
+[2016.09.17-02.51.24:539][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.17-02.51.27:217][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.17-02.51.27:228][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.17-02.51.27:238][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.17-02.51.27:249][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.17-02.51.27:259][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.17-02.51.27:268][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.17-02.51.27:278][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.17-02.51.27:287][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.17-02.51.27:297][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.17-02.51.27:307][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.17-02.51.27:317][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.17-02.51.27:329][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.17-02.51.27:339][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.17-02.51.27:341][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.17-02.51.27:372][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.17-02.51.27:401][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.17-02.51.27:401][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.17-02.51.27:524][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.17-02.51.28:538][  0]LogDerivedDataCache: Loaded boot cache 1.01s 62MB F:/虚幻4百度云盘/已上传/GRMaleHero02/DerivedDataCache/Boot.ddc.
+[2016.09.17-02.51.28:538][  0]LogDerivedDataCache:Display: Loaded Boot cache: F:/虚幻4百度云盘/已上传/GRMaleHero02/DerivedDataCache/Boot.ddc
+[2016.09.17-02.51.28:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/虚幻4百度云盘/已上传/GRMaleHero02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.17-02.51.28:538][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.17-02.51.28:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.17-02.51.28:538][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.09.17-02.51.28:573][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.09.17-02.51.28:573][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.09.17-02.51.28:573][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.09.17-02.51.28:961][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.17-02.51.28:963][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.09.17-02.51.28:969][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.17-02.51.29:240][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.17-02.51.29:240][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.17-02.51.29:240][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.17-02.51.29:866][  0]LogNetVersion: GetLocalNetworkVersion: CL: 0, ProjectName: grmalehero02, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1177709170
+[2016.09.17-02.51.29:913][  0]LogAssetRegistry: FAssetRegistry took 0.0204 seconds to start up
+[2016.09.17-02.51.30:349][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.432672 seconds
+[2016.09.17-02.51.30:360][  0]LogUObjectArray: 29769 objects as part of root set at end of initial load.
+[2016.09.17-02.51.30:360][  0]LogUObjectAllocator: 6122888 out of 0 bytes used by permanent object pool.
+[2016.09.17-02.51.30:360][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.17-02.51.30:370][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.17-02.51.30:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.17-02.51.30:755][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.17-02.51.31:874][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.17-02.51.32:303][  0]SourceControl: 信息 源码控制已禁用
+[2016.09.17-02.51.32:305][  0]SourceControl: 信息 源码控制已禁用
+[2016.09.17-02.51.32:324][  0]SourceControl: 信息 源码控制已禁用
+[2016.09.17-02.51.32:340][  0]SourceControl: 信息 源码控制已禁用
+[2016.09.17-02.51.32:886][  0]LogEngine: Initializing Engine...
+[2016.09.17-02.51.32:887][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.09.17-02.51.33:164][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.09.17-02.51.33:201][  0]LogInit: XAudio2 using '扬声器 (High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.17-02.51.33:271][  0]LogInit: FAudioDevice initialized.
+[2016.09.17-02.51.33:335][  0]LogDerivedDataCache: Saved boot cache 0.06s 62MB F:/虚幻4百度云盘/已上传/GRMaleHero02/DerivedDataCache/Boot.ddc.
+[2016.09.17-02.51.33:357][  0]LogInit: Texture streaming: Enabled
+[2016.09.17-02.51.33:402][  0]LogInit: Transaction tracking system initialized
+[2016.09.17-02.51.33:435][  0]BlueprintLog: New page: 编辑器加载
+[2016.09.17-02.51.33:566][  0]LocalizationService: 信息 本地化服务已被禁用
+[2016.09.17-02.51.33:692][  0]LogConsoleResponse:Display: 
+[2016.09.17-02.51.33:872][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.09.17-02.51.33:872][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.17-02.51.34:157][  0]LogFileCache: Scanning file cache for directory 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/' took 0.02s
+[2016.09.17-02.51.34:157][  0]SourceControl: 信息 源码控制已禁用
+[2016.09.17-02.51.34:157][  0]Cmd: MAP LOAD FILE="F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/GR_MALE_HERO_02/Levels/GR_MALE_HERO_02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.17-02.51.34:157][  0]LogEditorServer:Warning: Can't find file 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/GR_MALE_HERO_02/Levels/GR_MALE_HERO_02.umap'
+[2016.09.17-02.51.34:157][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.17-02.51.34:209][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时51.277毫秒完成。
+[2016.09.17-02.51.34:209][  0]LogFileHelpers: Loading map 'GR_MALE_HERO_02' took 0.052
+[2016.09.17-02.51.34:346][  0]LogCollectionManager: Loaded 0 collections in 0.002285 seconds
+[2016.09.17-02.51.34:391][  0]LogFileCache: Scanning file cache for directory 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Saved/Collections/' took 0.01s
+[2016.09.17-02.51.34:391][  0]LogFileCache: Scanning file cache for directory 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/Developers/Administrator/Collections/' took 0.01s
+[2016.09.17-02.51.34:391][  0]LogFileCache: Scanning file cache for directory 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/Collections/' took 0.01s
+[2016.09.17-02.51.34:391][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.09.17-02.51.34:406][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2140 classes and 413 folders.
+[2016.09.17-02.51.34:411][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.17-02.51.34:412][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.17-02.51.34:412][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.09.17-02.51.34:419][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.09.17-02.51.34:447][  0]LogFeaturePack:Warning: Error in Feature pack G:/UnrealEngine-release4.13/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Comma token expected, but not found. Line: 31 Ch: 13
+[2016.09.17-02.51.34:485][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.09.17-02.51.34:494][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.09.17-02.51.34:514][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.17-02.51.34:524][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2016.09.17-02.51.34:554][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.09.17-02.51.34:554][  0]LogLoad: (Engine Initialization) Total time: 13.87 seconds
+[2016.09.17-02.51.34:554][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.01 seconds
+[2016.09.17-02.51.34:554][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.09.17-02.51.34:566][  0]LogOcInput: OculusInput pre-init called
+[2016.09.17-02.51.34:611][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.17-02.51.34:879][  0]LogRenderer: Reallocating scene render targets to support 1184x660 (Frame:2).
+[2016.09.17-02.51.35:092][  1]LogEditorViewport: Clicking Background
+[2016.09.17-02.51.35:131][  1]LogFileCache: Retrieving MD5 hashes for directory 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/' took 0.55s
+[2016.09.17-02.51.35:346][  3]LogAssetRegistry: Asset discovery search completed in 5.4535 seconds
+[2016.09.17-02.51.35:347][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.09.17-02.51.35:347][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2016.09.17-03.00.02:043][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 输入操作事件对 K2Node_InputAction_64 引用了未知操作'Fire'
+[2016.09.17-03.00.02:053][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 [0521.37] Compile of FirstPersonCharacter2 successful, but with 1 Warning(s) [in 30 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter2.FirstPersonCharacter2)
+[2016.09.17-03.00.02:053][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 [0521.37] Compile of FirstPersonCharacter2 successful, but with 2 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter2.FirstPersonCharacter2)
+[2016.09.17-03.00.02:053][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 [0521.37] Compile of FirstPersonCharacter2 successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter2.FirstPersonCharacter2)
+[2016.09.17-03.00.02:080][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 输入操作事件对 K2Node_InputAction_64 引用了未知操作'Fire'
+[2016.09.17-03.00.02:089][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 [0521.41] Compile of FirstPersonCharacter2 successful, but with 1 Warning(s) [in 30 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter2.FirstPersonCharacter2)
+[2016.09.17-03.00.02:089][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 [0521.41] Compile of FirstPersonCharacter2 successful, but with 2 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter2.FirstPersonCharacter2)
+[2016.09.17-03.00.02:089][629]LogBlueprint:Warning: [Compiler FirstPersonCharacter2] 警告 [0521.41] Compile of FirstPersonCharacter2 successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter2.FirstPersonCharacter2)
+[2016.09.17-03.00.02:871][629]LogStaticMesh: 正在构建静态网格物体Shape_Cube...
+[2016.09.17-03.00.02:878][629]LogStaticMesh: Built static mesh [0.01s] /Game/ForcefieldSystem/Meshes/Shape_Cube.Shape_Cube
+[2016.09.17-03.00.03:179][629]LogStaticMesh: 正在构建静态网格物体FVX_Fighter...
+[2016.09.17-03.00.12:547][629]LogStaticMesh: Built static mesh [9.37s] /Game/ForcefieldSystem/Meshes/FVX_Fighter.FVX_Fighter
+[2016.09.17-03.00.13:908][629]LogStaticMesh: 正在构建静态网格物体Shape_NarrowCapsule...
+[2016.09.17-03.00.13:942][629]LogStaticMesh: Built static mesh [0.03s] /Game/ForcefieldSystem/Meshes/Shape_NarrowCapsule.Shape_NarrowCapsule
+[2016.09.17-03.00.13:947][629]LogStaticMesh: 正在构建静态网格物体Shape_Plane...
+[2016.09.17-03.00.13:951][629]LogStaticMesh: Built static mesh [0.00s] /Game/ForcefieldSystem/Meshes/Shape_Plane.Shape_Plane
+[2016.09.17-03.00.13:968][629]LogMaterial: Missing cached shader map for material Empty, compiling. 
+[2016.09.17-03.00.14:050][629]LogTexture:Display: 正在构建贴图: Forcefield_T_simple_01 (AutoDXT)
+[2016.09.17-03.00.14:157][629]LogMaterial: Missing cached shader map for material ff_Material_Simple, compiling. 
+[2016.09.17-03.00.14:207][629]LogTexture:Display: 正在构建贴图: Forcefield_T_complex (AutoDXT)
+[2016.09.17-03.00.14:359][629]LogMaterial: Missing cached shader map for material ff_Material_Complex, compiling. 
+[2016.09.17-03.00.14:393][629]LogMaterial: Missing cached shader map for material ff_Impact_SimpleMat, compiling. 
+[2016.09.17-03.00.14:465][629]LogTexture:Display: 正在构建贴图: Forcefield_T_simple_02 (AutoDXT)
+[2016.09.17-03.00.14:637][629]LogMaterial: Missing cached shader map for material ff_Impact_ComplexMat, compiling. 
+[2016.09.17-03.00.15:051][629]LogAIModule: Creating AISystem for world Overview
+[2016.09.17-03.00.15:158][629]Cmd: MAP LOAD FILE="F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/ForcefieldSystem/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.17-03.00.15:159][629]LightingResults: New page: 光照构建
+[2016.09.17-03.00.15:163][629]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0009 seconds. Added 5 classes and 0 folders.
+[2016.09.17-03.00.15:165][629]LoadErrors: New page: 正在加载地图： Overview.umap
+[2016.09.17-03.00.15:165][629]MapCheck: New page: 地图检测
+[2016.09.17-03.00.15:165][629]LightingResults: New page: 光照构建
+[2016.09.17-03.00.15:209][629]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.17-03.00.15:244][629]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.17-03.00.15:323][629]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时78.768毫秒完成。
+[2016.09.17-03.00.15:325][629]LogFileHelpers: Loading map 'Overview' took 0.168
+[2016.09.17-03.22.13:791][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.17-03.22.13:792][648]PIE: New page: PIE会话: Overview (2016年9月17日 下午7:22:13)
+[2016.09.17-03.22.13:792][648]LogPlayLevel: Creating play world package: /Game/ForcefieldSystem/UEDPIE_0_Overview
+[2016.09.17-03.22.13:800][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007660s)
+[2016.09.17-03.22.13:801][648]LogAIModule: Creating AISystem for world Overview
+[2016.09.17-03.22.13:801][648]LogPlayLevel: PIE: World Init took: (0.001698s)
+[2016.09.17-03.22.13:802][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ForcefieldSystem/Overview.Overview to /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview (0.009782s)
+[2016.09.17-03.22.13:830][648]LogInit: XAudio2 using '扬声器 (High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.17-03.22.13:846][648]LogInit: FAudioDevice initialized.
+[2016.09.17-03.22.13:901][648]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.13:902][648]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.13:903][648]LogUObjectGlobals:Warning: 寻找对象'Class /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.22.13:903][648]LogWorld: Game class is 'GameMode'
+[2016.09.17-03.22.13:910][648]LogWorld: Bringing World /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2016.09.17-11.22.13
+[2016.09.17-03.22.13:911][648]LogWorld: Bringing up level for play took: 0.004914
+[2016.09.17-03.22.13:917][648]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2016.09.17-03.22.13:917][648]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.09.17-03.22.13:917][648]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.09.17-03.22.13:917][648]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.09.17-03.22.13:919][648]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.09.17-03.22.13:919][648]PIE: 信息 /Game/ForcefieldSystem/UEDPIE_0_Overview的‘在编辑器中播放’的起始时间-0.036
+[2016.09.17-03.22.25:198][340]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.25:200][340]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.25:200][340]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.22.25:201][340]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.25:202][340]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.22.26:420][399]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.26:420][399]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.22.26:422][399]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.26:422][399]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.22.26:422][399]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "选择{RootClass}类".
+[2016.09.17-03.22.27:678][493]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "选择{RootClass}类".
+[2016.09.17-03.22.59:874][417]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.59:874][417]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.22.59:875][417]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.22.59:876][417]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.23.00:835][469]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.23.00:835][469]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.23.00:836][469]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.23.00:837][469]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.23.00:837][469]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "选择{RootClass}类".
+[2016.09.17-03.23.01:235][497]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "选择{RootClass}类".
+[2016.09.17-03.23.02:634][598]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.23.02:635][598]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.23.02:636][598]LogLinker:Warning: 无法寻找到文件'/Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode'
+[2016.09.17-03.23.02:637][598]LogUObjectGlobals:Warning: 寻找对象'Object /Game/GR_MALE_HERO_02/Character/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'失败
+[2016.09.17-03.23.02:637][598]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "选择{RootClass}类".
+[2016.09.17-03.23.04:256][716]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.09.17-03.23.04:287][716]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "选择{RootClass}父类".
+[2016.09.17-03.23.05:187][771]LogTextFormatter:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "选择{RootClass}类".
+[2016.09.17-03.23.09:233][ 88]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.09.17-03.23.09:298][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 输入操作事件对 K2Node_InputAction_64 引用了未知操作'Fire'
+[2016.09.17-03.23.09:305][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 [1908.62] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 20 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter.FirstPersonCharacter)
+[2016.09.17-03.23.09:305][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 [1908.62] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter.FirstPersonCharacter)
+[2016.09.17-03.23.09:305][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 [1908.62] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter.FirstPersonCharacter)
+[2016.09.17-03.23.09:322][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 输入操作事件对 K2Node_InputAction_64 引用了未知操作'Fire'
+[2016.09.17-03.23.09:329][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 [1908.65] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 19 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter.FirstPersonCharacter)
+[2016.09.17-03.23.09:329][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 [1908.65] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter.FirstPersonCharacter)
+[2016.09.17-03.23.09:329][ 88]LogBlueprint:Warning: [Compiler FirstPersonCharacter] 警告 [1908.65] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonCharacter/FirstPersonCharacter.FirstPersonCharacter)
+[2016.09.17-03.23.15:391][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.17-03.23.15:391][533]PIE: New page: PIE会话: Overview (2016年9月17日 下午7:23:15)
+[2016.09.17-03.23.15:391][533]LogPlayLevel: Creating play world package: /Game/ForcefieldSystem/UEDPIE_0_Overview
+[2016.09.17-03.23.15:399][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006992s)
+[2016.09.17-03.23.15:400][533]LogAIModule: Creating AISystem for world Overview
+[2016.09.17-03.23.15:400][533]LogPlayLevel: PIE: World Init took: (0.001609s)
+[2016.09.17-03.23.15:401][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ForcefieldSystem/Overview.Overview to /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview (0.009139s)
+[2016.09.17-03.23.15:433][533]LogInit: XAudio2 using '扬声器 (High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.17-03.23.15:448][533]LogInit: FAudioDevice initialized.
+[2016.09.17-03.23.15:482][533]LogWorld: Game class is 'ff_GameMode_C'
+[2016.09.17-03.23.15:488][533]LogWorld: Bringing World /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2016.09.17-11.23.15
+[2016.09.17-03.23.15:489][533]LogWorld: Bringing up level for play took: 0.003609
+[2016.09.17-03.23.15:490][533]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.09.17-03.23.15:490][533]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.09.17-03.23.15:490][533]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.09.17-03.23.15:492][533]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.09.17-03.23.15:492][533]PIE: 信息 /Game/ForcefieldSystem/UEDPIE_0_Overview的‘在编辑器中播放’的起始时间-0.462
+[2016.09.17-03.23.34:948][431]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_51
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.34:948][431]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.34:948][431]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_51
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.34:948][431]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:012][434]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_52
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:012][434]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:012][434]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_52
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:012][434]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:076][437]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_53
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:076][437]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:076][437]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_53
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:076][437]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:141][440]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_54
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:141][440]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:141][440]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_54
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:142][440]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:208][443]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_55
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:208][443]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:208][443]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_55
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:208][443]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:274][446]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_56
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:274][446]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:274][446]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_56
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:274][446]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:339][449]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_57
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:340][449]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:340][449]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_57
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:340][449]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:846][472]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_58
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:847][472]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.35:847][472]LogScript:Warning: Accessed None trying to read property K2Node_Event_SkeletalMesh
+	ShieldImpact_C /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview:PersistentLevel.ShieldImpact_C_58
+	Function /Game/ForcefieldSystem/Blueprints/ShieldImpact.ShieldImpact_C:ExecuteUbergraph_ShieldImpact:09BB
+[2016.09.17-03.23.35:847][472]PIE:Error: 错误 Blueprint Runtime Error: Accessed None trying to read property K2Node_Event_SkeletalMesh from function: 'ExecuteUbergraph_ShieldImpact' from node: Set Material in graph: EventGraph in object: ShieldImpact with description: Accessed None trying to read property K2Node_Event_SkeletalMesh
+[2016.09.17-03.23.51:687][204]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2016.09.17-03.24.17:807][ 48]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.09.17-03.24.55:683][225]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.09.17-03.25.05:234][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCharacter/ff_GameMode" FILE="F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/FirstPersonCharacter/ff_GameMode.uasset" SILENT=true
+[2016.09.17-03.25.05:290][623]LogSavePackage: Save=21.47ms
+[2016.09.17-03.25.05:290][623]LogSavePackage: Moving 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Saved/ff_GameMode7F9530AD47CC1D1BE58369A5CB96CF79.tmp' to 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/FirstPersonCharacter/ff_GameMode.uasset'
+[2016.09.17-03.25.05:325][623]LogSavePackage:Display: Finished SavePackage F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/FirstPersonCharacter/ff_GameMode.uasset
+[2016.09.17-03.25.06:939][734]BlueprintLog: New page: 编译ff_GameMode
+[2016.09.17-03.25.08:318][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCharacter/ff_GameMode" FILE="F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/FirstPersonCharacter/ff_GameMode.uasset" SILENT=true
+[2016.09.17-03.25.08:360][807]LogSavePackage: Save=21.03ms
+[2016.09.17-03.25.08:360][807]LogSavePackage: Moving 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Saved/ff_GameModeBB98E7AE4E6C621E6C23C98CC9D5733E.tmp' to 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/FirstPersonCharacter/ff_GameMode.uasset'
+[2016.09.17-03.25.08:381][807]LogSavePackage:Display: Finished SavePackage F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/FirstPersonCharacter/ff_GameMode.uasset
+[2016.09.17-03.25.14:446][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.17-03.25.14:446][272]PIE: New page: PIE会话: Overview (2016年9月17日 下午7:25:14)
+[2016.09.17-03.25.14:446][272]LogPlayLevel: Creating play world package: /Game/ForcefieldSystem/UEDPIE_0_Overview
+[2016.09.17-03.25.14:453][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006818s)
+[2016.09.17-03.25.14:455][272]LogAIModule: Creating AISystem for world Overview
+[2016.09.17-03.25.14:455][272]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2016.09.17-03.25.14:455][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ForcefieldSystem/Overview.Overview to /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview (0.008884s)
+[2016.09.17-03.25.14:489][272]LogInit: XAudio2 using '扬声器 (High Definition Audio 设备)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.17-03.25.14:504][272]LogInit: FAudioDevice initialized.
+[2016.09.17-03.25.14:540][272]LogWorld: Game class is 'ff_GameMode_C'
+[2016.09.17-03.25.14:545][272]LogWorld: Bringing World /Game/ForcefieldSystem/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2016.09.17-11.25.14
+[2016.09.17-03.25.14:546][272]LogWorld: Bringing up level for play took: 0.003649
+[2016.09.17-03.25.14:548][272]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.09.17-03.25.14:548][272]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.09.17-03.25.14:548][272]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.09.17-03.25.14:549][272]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.09.17-03.25.14:550][272]PIE: 信息 /Game/ForcefieldSystem/UEDPIE_0_Overview的‘在编辑器中播放’的起始时间0.595
+[2016.09.17-03.25.37:388][374]Cmd: QUIT_EDITOR
+[2016.09.17-03.25.37:480][374]LogExit: Preparing to exit.
+[2016.09.17-03.25.38:342][374]LogExit: Editor shut down
+[2016.09.17-03.25.38:343][374]LogExit: Transaction tracking system shut down
+[2016.09.17-03.25.38:645][374]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.17-03.25.38:645][374]LogExit: Object subsystem successfully closed.
+[2016.09.17-03.25.38:672][374]LogD3D11RHI: Shutdown
+[2016.09.17-03.25.38:672][374]LogD3D11RHI: CleanupD3DDevice
+[2016.09.17-03.25.38:933][374]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module BlueprintGraph (231)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (230)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (229)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module StatsViewer (228)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (227)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module CrashTracker (226)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module SceneOutliner (225)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module WidgetCarousel (224)
+[2016.09.17-03.25.38:945][374]LogModuleManager: Shutting down and abandoning module AddContentDialog (223)
+[2016.09.17-03.25.38:945][374]LogDirectoryWatcher: A directory notification for 'G:/UnrealEngine-release4.13/FeaturePacks/' was aborted.
+[2016.09.17-03.25.38:948][374]LogModuleManager: Shutting down and abandoning module GameplayTags (222)
+[2016.09.17-03.25.38:948][374]LogModuleManager: Shutting down and abandoning module EditorWidgets (221)
+[2016.09.17-03.25.38:948][374]LogModuleManager: Shutting down and abandoning module CollectionManager (220)
+[2016.09.17-03.25.38:949][374]LogDirectoryWatcher: A directory notification for 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/Collections/' was aborted.
+[2016.09.17-03.25.38:949][374]LogDirectoryWatcher: A directory notification for 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/Developers/Administrator/Collections/' was aborted.
+[2016.09.17-03.25.38:949][374]LogDirectoryWatcher: A directory notification for 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Saved/Collections/' was aborted.
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module FoliageEdit (219)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module LandscapeEditor (218)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (217)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module ActorPickerMode (216)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module GeometryMode (215)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module TextureAlignMode (214)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module BspMode (213)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module HardwareSurvey (212)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (211)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module SequenceRecorder (210)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module AutomationWorker (209)
+[2016.09.17-03.25.38:949][374]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (208)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module PlacementMode (207)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (206)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (205)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (204)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (203)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (202)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module Media (201)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (200)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (199)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module CharacterAI (198)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module SmartSnapping (197)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module SessionServices (196)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module ViewportSnapping (195)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module ViewportInteraction (194)
+[2016.09.17-03.25.38:950][374]LogModuleManager: Shutting down and abandoning module LogVisualizer (193)
+[2016.09.17-03.25.38:951][374]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (192)
+[2016.09.17-03.25.38:951][374]LogModuleManager: Shutting down and abandoning module IntroTutorials (191)
+[2016.09.17-03.25.38:951][374]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (190)
+[2016.09.17-03.25.38:951][374]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (189)
+[2016.09.17-03.25.38:951][374]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (188)
+[2016.09.17-03.25.38:951][374]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (187)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (186)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (185)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (184)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module NiagaraEditor (183)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module MergeActors (182)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module SizeMap (181)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module TreeMap (180)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module ReferenceViewer (179)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module LocalizationService (178)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (177)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module HardwareTargeting (176)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (175)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module UndoHistory (174)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module UserFeedback (173)
+[2016.09.17-03.25.39:910][374]LogModuleManager: Shutting down and abandoning module XmlParser (172)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module Blutility (171)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (170)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (169)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module InputBindingEditor (168)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (167)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module SettingsEditor (166)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module ProjectLauncher (165)
+[2016.09.17-03.25.39:911][374]LogModuleManager: Shutting down and abandoning module SessionFrontend (164)
+[2016.09.17-03.25.39:912][374]LogModuleManager: Shutting down and abandoning module ProfilerClient (163)
+[2016.09.17-03.25.39:912][374]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (162)
+[2016.09.17-03.25.39:912][374]LogModuleManager: Shutting down and abandoning module DeviceManager (161)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module AutomationController (160)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module AutomationWindow (159)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module Layers (158)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (157)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module DetailCustomizations (156)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module PackagesDialog (155)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module AnimGraph (154)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module Persona (153)
+[2016.09.17-03.25.39:942][374]LogModuleManager: Shutting down and abandoning module Kismet (152)
+[2016.09.17-03.25.39:952][374]LogModuleManager: Shutting down and abandoning module GraphEditor (151)
+[2016.09.17-03.25.39:952][374]LogModuleManager: Shutting down and abandoning module ClassViewer (150)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module Toolbox (149)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module ModuleUI (148)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module MovieSceneTools (147)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module OutputLog (146)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module GammaUI (145)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module Documentation (144)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module Niagara (143)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (142)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module AnalyticsET (141)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module PortalServices (140)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module PortalRpc (139)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module MessagingRpc (138)
+[2016.09.17-03.25.39:954][374]LogModuleManager: Shutting down and abandoning module GameplayDebugger (137)
+[2016.09.17-03.25.39:955][374]LogModuleManager: Shutting down and abandoning module AITestSuite (136)
+[2016.09.17-03.25.39:955][374]LogModuleManager: Shutting down and abandoning module AIModule (135)
+[2016.09.17-03.25.39:955][374]LogModuleManager: Shutting down and abandoning module ProfilerService (134)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module TaskGraph (133)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SlateRemote (132)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SteamVRController (131)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SteamVR (130)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (129)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (128)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module OculusLibrary (127)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module OculusInput (126)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (125)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module CableComponent (124)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (123)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (121)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module HTML5Networking (120)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (119)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module GeometryCache (118)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module AlembicLibrary (117)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module AlembicImporter (116)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SuperSearch (115)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (114)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (111)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module UObjectPlugin (107)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (106)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (105)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module SourceControl (104)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module GitSourceControl (103)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (102)
+[2016.09.17-03.25.39:991][374]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (101)
+[2016.09.17-03.25.39:992][374]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (100)
+[2016.09.17-03.25.39:992][374]LogModuleManager: Shutting down and abandoning module MeshPaint (99)
+[2016.09.17-03.25.39:992][374]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (98)
+[2016.09.17-03.25.39:992][374]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (97)
+[2016.09.17-03.25.39:992][374]LogModuleManager: Shutting down and abandoning module HotReload (96)
+[2016.09.17-03.25.39:996][374]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2016.09.17-03.25.39:996][374]LogModuleManager: Shutting down and abandoning module LevelEditor (94)
+[2016.09.17-03.25.39:997][374]LogModuleManager: Shutting down and abandoning module ContentBrowser (93)
+[2016.09.17-03.25.39:998][374]LogModuleManager: Shutting down and abandoning module Paper2DEditor (92)
+[2016.09.17-03.25.39:998][374]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
+[2016.09.17-03.25.40:098][374]LogModuleManager: Shutting down and abandoning module TcpMessaging (90)
+[2016.09.17-03.25.40:098][374]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (89)
+[2016.09.17-03.25.40:098][374]LogModuleManager: Shutting down and abandoning module Paper2D (88)
+[2016.09.17-03.25.40:098][374]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (87)
+[2016.09.17-03.25.40:098][374]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
+[2016.09.17-03.25.40:098][374]LogModuleManager: Shutting down and abandoning module MediaAssets (85)
+[2016.09.17-03.25.40:098][374]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (84)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (83)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module VREditor (82)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (81)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (79)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module FunctionalTesting (78)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (77)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module Sequencer (76)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (75)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module MessageLog (74)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module AssetTools (73)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module UMGEditor (72)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module UMG (71)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module SlateReflector (70)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module Slate (69)
+[2016.09.17-03.25.40:099][374]LogModuleManager: Shutting down and abandoning module EditorStyle (68)
+[2016.09.17-03.25.40:102][374]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.09.17-03.25.40:102][374]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.09.17-03.25.40:102][374]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.09.17-03.25.40:102][374]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.09.17-03.25.40:102][374]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.09.17-03.25.40:102][374]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (61)
+[2016.09.17-03.25.40:102][374]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.09.17-03.25.40:102][374]LogDirectoryWatcher: A directory notification for 'F:/虚幻4百度云盘/已上传/GRMaleHero02/Content/' was aborted.
+[2016.09.17-03.25.40:103][374]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.09.17-03.25.40:104][374]LogModuleManager: Shutting down and abandoning module AssetRegistry (60)
+[2016.09.17-03.25.40:274][374]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.09.17-03.25.40:274][374]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.09.17-03.25.40:274][374]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.09.17-03.25.40:274][374]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.09.17-03.25.40:364][374]LogDerivedDataCache: Shutdown
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (55)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (54)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (53)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (52)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (51)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module ImageWrapper (50)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (49)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (48)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.09.17-03.25.40:364][374]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (38)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (37)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (30)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (28)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (27)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (26)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.09.17-03.25.40:365][374]LogOnline:Display: Unloading online subsystem: NULL
+[2016.09.17-03.25.40:365][374]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.09.17-03.25.40:365][374]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.09.17-03.25.40:365][374]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B58619D9F-4FA7-1C5F-7D62-86B86A82C6D3%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=UE4-CL-0&UserID=e1fbe87e454e401a2456da9c09679d2f%7C6e68f56180a14e5dba7b212230da820a%7C7adaa6c5-3d18-4614-a681-ec87d33ff9f1&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2016.09.17-03.25.40:388][374]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.17-03.25.40:388][374]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.17-03.25.40:388][374]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.17-03.25.40:388][374]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.17-03.25.40:393][374]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.17-03.25.40:397][374]LogExit: Exiting.
+[2016.09.17-03.25.40:414][374]Log file closed, 09/17/16 11:25:40
