@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 12/26/17 12:56:02
+=======
+﻿Log file open, 12/11/17 23:22:50
+>>>>>>> parent of c672fea... 预览项目
 =======
 ﻿Log file open, 12/11/17 23:22:50
 >>>>>>> parent of c672fea... 预览项目
@@ -14,9 +18,15 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: otherworld
 LogPlatformFile: Not using cached read wrapper
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogInit: Display: RandInit(2129166567) SRandInit(2129166567).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.202323
+=======
+LogInit: Display: RandInit(-333374385) SRandInit(-333374385).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.231044
+>>>>>>> parent of c672fea... 预览项目
 =======
 LogInit: Display: RandInit(-333374385) SRandInit(-333374385).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
@@ -123,6 +133,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2017.12.26-04.56.03:836][  0]LogInit: Selected Device Profile: [Windows]
 [2017.12.26-04.56.03:836][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
@@ -632,6 +643,8 @@ LogInit: Object subsystem initialized
 [2017.12.26-04.58.43:353][493]LogExit: Exiting.
 [2017.12.26-04.58.43:370][493]Log file closed, 12/26/17 12:58:43
 =======
+=======
+>>>>>>> parent of c672fea... 预览项目
 [2017.12.11-15.22.52:666][  0]LogInit: Selected Device Profile: [Windows]
 [2017.12.11-15.22.52:666][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.12.11-15.22.52:688][  0]LogInit: Computer: DESKTOP-P20L9BT
@@ -1379,4 +1392,7 @@ LogInit: Object subsystem initialized
 [2017.12.11-15.25.06:874][418]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.12.11-15.25.06:886][418]LogExit: Exiting.
 [2017.12.11-15.25.06:898][418]Log file closed, 12/11/17 23:25:06
+<<<<<<< HEAD
+>>>>>>> parent of c672fea... 预览项目
+=======
 >>>>>>> parent of c672fea... 预览项目
